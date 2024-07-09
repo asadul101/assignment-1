@@ -1,0 +1,33 @@
+/* ================= Google Fonts start =================== */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* -------------------Google Fonts End------------------- */
+/* =============== Common Css propates============= */
+body{
+    width: 100%;
+}
+/* ---------------- Common Css propates-------------- */
+/* ================= Navbar part start=============== */
+.main_manu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:38px 166px 35px 150px;
+
+}
+.main_manu h1 {
+    font-weight: 800;
+    font-size: 28px;
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+}
+.main_manu_btn{
+    height: 58px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Azeret Mono", monospace ;
+    color: #0D1321;
+    padding: 17px 24px;
+    border-radius: 8px;
+}
+/* ------------------ Navbar part End------------------ */
