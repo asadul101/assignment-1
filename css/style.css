@@ -76,6 +76,7 @@ a {
     width: 1140px;
     margin: 0 auto;
     border: 2px solid #fffdfd;
+    border-radius: 16px;
     background-color: #0D132105;
     margin-bottom: 96px;
 }
@@ -102,15 +103,17 @@ a {
 }
 /* development flex-------- */
 .development_single-1 a {
-    width: 110px;
-    height: 24px;
+    width: 150px;
+    height: 48px;
     padding: 12px 20px;
     font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 600;
     border: 1px solid;
     color: #0D1321;
-    margin-right: 327px;
+}
+.development_single-1{
+    margin: 59px 0 58px 48px;
 }
 .development_flex {
     width: 946px;
@@ -389,18 +392,20 @@ a {
 }
 /* ================= Support pat start========== */
 .support_input_fild{
-    width: 1140px;
+    height: 314px;
     border-radius: 16px;
     background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 41px;
+    margin-bottom: 79px;
 }
 .support_container{
     width: 1044px;
     height: 186px;
     text-align: center;
-    margin: 48px 64px;
+    padding:64px 48px;
 }
 .support_text h2{
     font-family: "Azeret Mono", monospace;
