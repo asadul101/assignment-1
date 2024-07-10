@@ -269,4 +269,76 @@ a{
 }
 /* ------------------------------ Inspiration part End-------------- */
 /* ===========  Current Target part start====================== */
-
+#current{
+    width: 1140px;
+    border: 2px solid orange;
+    margin: 0 auto;
+}
+.current_text{
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.currten-text h2{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+}
+.currten-text p{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+}
+/* ---------- Current part Flex---------  */
+.current_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 111px;
+}
+.current_flex_container{
+    width: 364px;
+    border-radius: 16px;
+    background-color: #FF4C1E0D;
+}
+.color-1{
+    background-color: #004CE80D;
+}
+.color-2{
+    background-color: #FFDF000D;
+}
+.current_flex_text{
+   width: 284px;
+   margin: 40px 40px;
+}
+.current_flex_text img{
+    width: 56px;
+    height: 56px;
+}
+.current_flex_text h2{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 800;
+    font-size: 24px;
+    color: #0D1321;
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+.current_flex_text p{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.current_flex_text a{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 700;
+    font-size: 14px;
+    color: #0D1321;
+    border-bottom: 2px solid #0D1321;
+}
+/* ---------------------  Current Target part End-------------------  */
