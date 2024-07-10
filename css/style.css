@@ -11,7 +11,9 @@ body {
 a {
     text-decoration: none;
 }
-
+li{
+    list-style: none;
+}
 /* ---------------- Common Css propates-------------- */
 /* ================= Navbar part start=============== */
 .main_manu {
@@ -452,7 +454,6 @@ a {
 .support_input_fild{
     width: 1140px;
     border-radius: 16px;
-    border: 2px solid gold;
     background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -461,7 +462,6 @@ a {
 .support_container{
     width: 1044px;
     height: 186px;
-    border: 2px solid red;
     text-align: center;
     margin: 48px 64px;
 }
@@ -492,3 +492,29 @@ a {
     border-radius: 8px;
 }
 /* ---------------------  Current Target part End-------------------  */
+/* ===================== Footer part start ================ */
+#foter_container{
+    height: 100px;
+    border: 1px solid #0D132108;
+    border-radius: 16px;
+    background-color:#0D132108 ;
+}
+.footer_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_icons a{
+    margin-left: 24px;
+}
+.footer_icons{
+    height: 36px;
+   margin: 40px 150px;
+}
+.footer_icons h4{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0D1321
+}
+/* ---------------------- Footer part End ------------------ */
