@@ -448,6 +448,47 @@ a {
     color: #0D1321;
     border-bottom: 2px solid #0D1321;
 }
-
-
+/* ================= Support pat start========== */
+.support_input_fild{
+    width: 1140px;
+    border-radius: 16px;
+    border: 2px solid gold;
+    background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.support_container{
+    width: 1044px;
+    height: 186px;
+    border: 2px solid red;
+    text-align: center;
+    margin: 48px 64px;
+}
+.support_text h2{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+}
+.support_text p{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color:#fff;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.support_input input{
+    width: 448px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+.support_input button{
+    width: 120px;
+    height: 34px;
+    border: none;
+    border-radius: 8px;
+}
 /* ---------------------  Current Target part End-------------------  */
