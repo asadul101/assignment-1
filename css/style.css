@@ -4,15 +4,19 @@
 /* -------------------Google Fonts End------------------- */
 /* =============== Common Css propates============= */
 body{
-    width: 100%;
+   max-width: 1440px;
+   margin: 0 auto;
+}
+a{
+    text-decoration: none;
 }
 /* ---------------- Common Css propates-------------- */
 /* ================= Navbar part start=============== */
 .main_manu{
-    display: flex;
+     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:38px 166px 35px 150px;
+    margin: 35px 150px ;
 
 }
 .main_manu h1 {
@@ -21,13 +25,248 @@ body{
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
 }
-.main_manu_btn{
-    height: 58px;
-    font-weight: 600;
-    font-size: 20px;
+/* ------------------ Navbar part End------------------ */
+/* ================ Banner part start=============== */
+#banner{
+    background: url(/B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.banner_container{
+    width: 988px;
+   padding: 35px 223px 35px 219px;
+}
+.banner_container .banner_content img{
+   padding-left: 379px;
+   padding-right: 379px;
+   padding-bottom: 37px;
+}
+.banner_content .banner_text h1{
+    width: 988px;
+    height: 136px;
+    font-weight: 800;
+    font-size: 37px;
     font-family: "Azeret Mono", monospace ;
     color: #0D1321;
-    padding: 17px 24px;
-    border-radius: 8px;
+    text-align: center;
+
 }
-/* ------------------ Navbar part End------------------ */
+.banner_content .banner_text p{
+    width: 852px;
+    height: 52px;
+    padding: 24px 73px 32px 73px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace ;
+    color: #0D1321;
+    text-align: center;
+}
+.main_manu_btn{
+    height: 66px;
+    padding: 21px 24px;
+    color: #fff;
+    background-color: #0D1321;
+    border-radius: 8px;
+    margin-left:335px ;
+    margin-right:335px ;
+}
+/* ----------------- Banner part End------------------ */
+/* ===================== Development part Start=============== */
+#development{
+    width: 1140px;
+    margin: 0 auto;
+    border: 2px solid #fffdfd;
+    background-color: #0D132105;
+    margin-bottom: 96px;
+}
+.development_container{
+    width: 946px;
+    margin: 80px 97px;
+}
+.development_text{
+   padding: 0 47px 48px 47px;
+   width: 852px;
+   text-align: center;
+}
+.development_text h2{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+}
+.development_text p{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+/* development flex-------- */
+.development_single-1 a{
+    width: 110px;
+    height: 24px;
+    padding: 12px 20px ;
+    font-family: "Azeret Mono", monospace ;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid ;
+    color: #0D1321;
+    margin-right: 327px;
+}
+.development_flex{
+    width: 946px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-bottom: 37px;
+}
+.development_single-1 h3{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0D1321;
+    padding-left: 0;
+}
+.development_single-1 p{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    padding: 16px 9px 32px 0;
+}
+.development_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 99px;
+}
+.development_single-2 img{
+    width: 274px;
+    padding: 48px 48px 48px 0;
+}
+/* development part flex - 1 */
+.development_flex_2{
+    width: 946px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-bottom: 37px;
+    border: 2px solid #f8f7f4;
+}
+.development_single_4{
+    width: 477px;
+}
+.development_single_4 h3{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0D1321;
+}
+.development_flex-2{
+    margin: 48px 48px;
+    width: 850px;
+    display: flex;
+    gap: 32px;
+}
+.development_single_4 p {
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.development_single_4 a{
+    width: 110px;
+    height: 24px;
+    padding: 12px 20px ;
+    font-family: "Azeret Mono", monospace ;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid ;
+    color: #0D1321;
+    
+}
+/* Development part flex - 3 */
+.development_flex_3{
+    width: 946px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-bottom: 37px;
+    border: 2px solid #f6fcf6;
+}
+.development_flex-3{
+    margin: 48px 48px;
+    width: 850px;
+    display: flex;
+    justify-content: end;
+    gap: 133px;
+}
+.development_single-4{
+    width: 477px;
+    margin-top: 10px ;
+   margin-bottom: 10px;
+}
+.development_single-4 h3{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0D1321;
+}
+.development_single-4 p{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    padding-top: 16px;
+    padding-bottom: 32px
+}
+.development_single_5 img{
+    width: 240px;
+    height: 240px;
+}
+.development_single-4 a{
+    width: 149px ;
+    height: 48px;
+    padding: 12px 20px ;
+    font-family: "Azeret Mono", monospace ;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid ;
+    color: #0D1321;
+}
+/* ---------------------- Development part End------------------- */
+/* =========================== Inspiration part start ============= */
+#indpiration{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 145px;
+}
+.indpiration_text{
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+.indpiration_text h1{
+    font-family: "Azeret Mono", monospace ;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.indpiration_text p{
+    font-family: "Azeret Mono", monospace ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.indpiration_video{
+    width:1076px;
+    height: 550px;
+    border: 1px inside;
+    border-radius: 16px;
+    padding: 32px 32px;
+}
+/* ------------------------------ Inspiration part End-------------- */
+/* ===========  Current Target part start====================== */
+
