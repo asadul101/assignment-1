@@ -3,342 +3,451 @@
 
 /* -------------------Google Fonts End------------------- */
 /* =============== Common Css propates============= */
-body{
-   max-width: 1440px;
-   margin: 0 auto;
+body {
+    max-width: 1440px;
+    margin: 0 auto;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /* ---------------- Common Css propates-------------- */
 /* ================= Navbar part start=============== */
-.main_manu{
-     display: flex;
+.main_manu {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 35px 150px ;
+    margin: 35px 150px;
 
 }
+
 .main_manu h1 {
     font-weight: 800;
     font-size: 28px;
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
 }
+
 /* ------------------ Navbar part End------------------ */
 /* ================ Banner part start=============== */
-#banner{
+#banner {
     background: url(/B10A1-Challenge-Begins/assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 70px;
 }
-.banner_container{
+
+.banner_container {
     width: 988px;
-   padding: 35px 223px 35px 219px;
+    padding: 35px 223px 35px 219px;
 }
-.banner_container .banner_content img{
-   padding-left: 379px;
-   padding-right: 379px;
-   padding-bottom: 37px;
+
+.banner_container .banner_content img {
+    padding-left: 379px;
+    padding-right: 379px;
+    padding-bottom: 37px;
 }
-.banner_content .banner_text h1{
+
+.banner_content .banner_text h1 {
     width: 988px;
     height: 136px;
     font-weight: 800;
     font-size: 37px;
-    font-family: "Azeret Mono", monospace ;
+    font-family: "Azeret Mono", monospace;
     color: #0D1321;
     text-align: center;
 
 }
-.banner_content .banner_text p{
+
+.banner_content .banner_text p {
     width: 852px;
     height: 52px;
     padding: 24px 73px 32px 73px;
     font-weight: 400;
     font-size: 16px;
-    font-family: "Azeret Mono", monospace ;
+    font-family: "Azeret Mono", monospace;
     color: #0D1321;
     text-align: center;
 }
-.main_manu_btn{
+
+.main_manu_btn {
     height: 66px;
     padding: 21px 24px;
     color: #fff;
     background-color: #0D1321;
     border-radius: 8px;
-    margin-left:335px ;
-    margin-right:335px ;
+    margin-left: 335px;
+    margin-right: 335px;
 }
+
 /* ----------------- Banner part End------------------ */
 /* ===================== Development part Start=============== */
-#development{
+#development {
     width: 1140px;
     margin: 0 auto;
     border: 2px solid #fffdfd;
     background-color: #0D132105;
     margin-bottom: 96px;
 }
-.development_container{
+
+.development_container {
     width: 946px;
     margin: 80px 97px;
 }
-.development_text{
-   padding: 0 47px 48px 47px;
-   width: 852px;
-   text-align: center;
+
+.development_text {
+    padding: 0 47px 48px 47px;
+    width: 852px;
+    text-align: center;
 }
-.development_text h2{
-    font-family: "Azeret Mono", monospace ;
+
+.development_text h2 {
+    font-family: "Azeret Mono", monospace;
     font-weight: 800;
     font-size: 32px;
     color: #0D1321;
 }
-.development_text p{
-    font-family: "Azeret Mono", monospace ;
+
+.development_text p {
+    font-family: "Azeret Mono", monospace;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
 }
+
 /* development flex-------- */
-.development_single-1 a{
+.development_single-1 a {
     width: 110px;
     height: 24px;
-    padding: 12px 20px ;
-    font-family: "Azeret Mono", monospace ;
+    padding: 12px 20px;
+    font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 600;
-    border: 1px solid ;
+    border: 1px solid;
     color: #0D1321;
     margin-right: 327px;
 }
-.development_flex{
+
+.development_flex {
     width: 946px;
     background-color: #fff;
     border-radius: 16px;
     margin-bottom: 37px;
 }
-.development_single-1 h3{
-    font-family: "Azeret Mono", monospace ;
+
+.development_single-1 h3 {
+    font-family: "Azeret Mono", monospace;
     font-weight: 700;
     font-size: 24px;
     color: #0D1321;
     padding-left: 0;
 }
-.development_single-1 p{
-    font-family: "Azeret Mono", monospace ;
+
+.development_single-1 p {
+    font-family: "Azeret Mono", monospace;
     font-weight: 400;
     font-size: 16px;
     color: #0D1321;
     padding: 16px 9px 32px 0;
 }
-.development_flex{
+
+.development_flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 99px;
 }
-.development_single-2 img{
+
+.development_single-2 img {
     width: 274px;
     padding: 48px 48px 48px 0;
 }
+
 /* development part flex - 1 */
-.development_flex_2{
+.development_flex_2 {
     width: 946px;
     border-radius: 16px;
     background-color: #fff;
     margin-bottom: 37px;
     border: 2px solid #f8f7f4;
 }
-.development_single_4{
+
+.development_single_4 {
     width: 477px;
 }
-.development_single_4 h3{
-    font-family: "Azeret Mono", monospace ;
+
+.development_single_4 h3 {
+    font-family: "Azeret Mono", monospace;
     font-weight: 700;
     font-size: 24px;
     color: #0D1321;
 }
-.development_flex-2{
+
+.development_flex-2 {
     margin: 48px 48px;
     width: 850px;
     display: flex;
     gap: 32px;
 }
+
 .development_single_4 p {
-    font-family: "Azeret Mono", monospace ;
+    font-family: "Azeret Mono", monospace;
     font-weight: 400;
     font-size: 16px;
     color: #0D1321;
     padding-top: 16px;
     padding-bottom: 32px;
 }
-.development_single_4 a{
+
+.development_single_4 a {
     width: 110px;
     height: 24px;
-    padding: 12px 20px ;
-    font-family: "Azeret Mono", monospace ;
+    padding: 12px 20px;
+    font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 600;
-    border: 1px solid ;
+    border: 1px solid;
     color: #0D1321;
-    
+
 }
+
 /* Development part flex - 3 */
-.development_flex_3{
+.development_flex_3 {
     width: 946px;
     border-radius: 16px;
     background-color: #fff;
     margin-bottom: 37px;
     border: 2px solid #f6fcf6;
 }
-.development_flex-3{
+
+.development_flex-3 {
     margin: 48px 48px;
     width: 850px;
     display: flex;
     justify-content: end;
     gap: 133px;
 }
-.development_single-4{
+
+.development_single-4 {
     width: 477px;
-    margin-top: 10px ;
-   margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.development_single-4 h3{
-    font-family: "Azeret Mono", monospace ;
+
+.development_single-4 h3 {
+    font-family: "Azeret Mono", monospace;
     font-weight: 700;
     font-size: 24px;
     color: #0D1321;
 }
-.development_single-4 p{
-    font-family: "Azeret Mono", monospace ;
+
+.development_single-4 p {
+    font-family: "Azeret Mono", monospace;
     font-weight: 400;
     font-size: 16px;
     color: #0D1321;
     padding-top: 16px;
     padding-bottom: 32px
 }
-.development_single_5 img{
+
+.development_single_5 img {
     width: 240px;
     height: 240px;
 }
-.development_single-4 a{
-    width: 149px ;
+
+.development_single-4 a {
+    width: 149px;
     height: 48px;
-    padding: 12px 20px ;
-    font-family: "Azeret Mono", monospace ;
+    padding: 12px 20px;
+    font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 600;
-    border: 1px solid ;
+    border: 1px solid;
     color: #0D1321;
 }
+
 /* ---------------------- Development part End------------------- */
 /* =========================== Inspiration part start ============= */
-#indpiration{
+#indpiration {
     width: 1140px;
     margin: 0 auto;
     margin-bottom: 145px;
 }
-.indpiration_text{
+
+.indpiration_text {
     width: 852px;
     margin: 0 auto;
     text-align: center;
 }
-.indpiration_text h1{
-    font-family: "Azeret Mono", monospace ;
+
+.indpiration_text h1 {
+    font-family: "Azeret Mono", monospace;
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
 }
-.indpiration_text p{
-    font-family: "Azeret Mono", monospace ;
+
+.indpiration_text p {
+    font-family: "Azeret Mono", monospace;
     font-weight: 400;
     font-size: 16px;
     color: #0D1321;
     margin-top: 24px;
     margin-bottom: 48px;
 }
-.indpiration_video{
-    width:1076px;
+
+.indpiration_video {
+    width: 1076px;
     height: 550px;
     border: 1px inside;
     border-radius: 16px;
     padding: 32px 32px;
 }
+
 /* ------------------------------ Inspiration part End-------------- */
 /* ===========  Current Target part start====================== */
-#current{
+#current {
     width: 1140px;
-    border: 2px solid orange;
     margin: 0 auto;
 }
-.current_text{
+
+.current_text {
     width: 852px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 48px;
 }
-.currten-text h2{
-    font-family: "Azeret Mono", monospace ;
+
+.currten-text h2 {
+    font-family: "Azeret Mono", monospace;
     font-weight: 800;
     font-size: 32px;
     color: #0D1321;
 }
-.currten-text p{
-    font-family: "Azeret Mono", monospace ;
+
+.currten-text p {
+    font-family: "Azeret Mono", monospace;
     font-weight: 400;
     font-size: 16px;
     color: #0D1321;
 }
+
 /* ---------- Current part Flex---------  */
-.current_flex{
+.current_flex {
     display: flex;
     justify-content: space-between;
     gap: 24px;
     align-items: center;
     margin-bottom: 111px;
 }
-.current_flex_container{
+
+.current_flex_container {
     width: 364px;
     border-radius: 16px;
     background-color: #FF4C1E0D;
 }
-.color-1{
+
+.color-1 {
     background-color: #004CE80D;
 }
-.color-2{
+
+.color-2 {
     background-color: #FFDF000D;
 }
-.current_flex_text{
-   width: 284px;
-   margin: 40px 40px;
+
+.current_flex_text {
+    width: 284px;
+    margin: 40px 40px;
 }
-.current_flex_text img{
+
+.current_flex_text img {
     width: 56px;
     height: 56px;
 }
-.current_flex_text h2{
-    font-family: "Azeret Mono", monospace ;
+
+.current_flex_text h2 {
+    font-family: "Azeret Mono", monospace;
     font-weight: 800;
     font-size: 24px;
     color: #0D1321;
     margin-top: 24px;
     margin-bottom: 5px;
 }
-.current_flex_text p{
-    font-family: "Azeret Mono", monospace ;
+
+.current_flex_text p {
+    font-family: "Azeret Mono", monospace;
     font-weight: 400;
     font-size: 16px;
     color: #0D1321;
     margin-bottom: 24px;
 }
-.current_flex_text a{
-    font-family: "Azeret Mono", monospace ;
+
+.current_flex_text a {
+    font-family: "Azeret Mono", monospace;
     font-weight: 700;
     font-size: 14px;
     color: #0D1321;
     border-bottom: 2px solid #0D1321;
 }
+
+/* ----------- My Next Terget ---------- */
+.next_target_text {
+    width: 946px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.next_target_text h2 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+}
+
+.next_target_text p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+}
+
+/* Next Target Flex  */
+.next_target_flex_container{
+    border: 1px solid #0D1321;
+    border-radius: 16px;
+    padding: 40px 40px;
+    margin-bottom: 24px;
+}
+.next_target_flex {
+    width: 1060px;
+    display: flex;
+    gap: 24px;
+}
+
+.next_target_flex_text h2 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 24px;
+    color: #0D1321;
+}
+
+.next_target_flex_text p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+}
+
+.next_target_flex_text a {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0D1321;
+    border-bottom: 2px solid #0D1321;
+}
+
+
 /* ---------------------  Current Target part End-------------------  */
